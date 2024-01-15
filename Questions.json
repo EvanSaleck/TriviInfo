@@ -1,0 +1,497 @@
+{
+    "1": {
+        "1": {
+            "question": "Quelle est la première étape pour créer un programme informatique ?",
+            "a": "Choisir la couleur du texte",
+            "b": "Définir les besoins et spécifications du programme",
+            "c": "Manger une pizza",
+            "d": "Apprendre à jouer de la guitare",
+            "reponse": "b"
+        },
+        "2": {
+            "question": "Quel langage de programmation est souvent recommandé pour les débutants en raison de sa syntaxe claire et de sa facilité d'apprentissage ?",
+            "a": "Python",
+            "b": "Java",
+            "c": "C++",
+            "d": "JavaScript",
+            "reponse": "a"
+        },
+        "3": {
+            "question": "À quoi sert la commande print dans la plupart des langages de programmation ?",
+            "a": "Faire une pause dans le programme",
+            "b": "Afficher des informations à l'écran",
+            "c": "Effacer la mémoire",
+            "d": "Jouer un son",
+            "reponse": "b"
+        },
+        "4": {
+            "question": "Quelle est la différence entre un logiciel et une application ?",
+            "a": "Aucune différence, ce sont des synonymes",
+            "b": "Un logiciel est physique, une application est virtuelle",
+            "c": "Un logiciel est un terme générique, une application est spécifique",
+            "d": "Un logiciel est destiné aux ordinateurs, une application aux smartphones",
+            "reponse": "c"
+        },
+        "5": {
+            "question": "Que signifie 'exécuter' un programme ?",
+            "a": "Le supprimer",
+            "b": "Le copier",
+            "c": "Le lancer pour traitement",
+            "d": "Le traduire en plusieurs langues",
+            "reponse": "c"
+        },
+        "6": {
+            "question": "Quel outil utilise-t-on pour écrire du code informatique ?",
+            "a": "Une baguette magique",
+            "b": "Un éditeur de texte",
+            "c": "Un microscope",
+            "d": "Une calculatrice",
+            "reponse": "b"
+        },
+        "7": {
+            "question": "Citez un type de test qu'on peut réaliser pour vérifier qu'une application fonctionne bien.",
+            "a": "Test de dégustation",
+            "b": "Test de formatage",
+            "c": "Test d'unité",
+            "d": "Test de couleur",
+            "reponse": "c"
+        },
+        "8": {
+            "question": "Qu'est-ce qu'une boucle en programmation ?",
+            "a": "Un cercle parfait",
+            "b": "Une structure de contrôle répétitive",
+            "c": "Un saut périlleux",
+            "d": "Une équation mathématique",
+            "reponse": "b"
+        },
+        "9": {
+            "question": "Qu'est-ce qu'un bug en informatique ?",
+            "a": "Un insecte sur l'écran",
+            "b": "Une caractéristique positive",
+            "c": "Un défaut ou une erreur dans le code",
+            "d": "Un interrupteur",
+            "reponse": "c"
+        },
+        "10": {
+            "question": "Pourquoi est-il important de commenter son code ?",
+            "a": "Pour faire joli",
+            "b": "Pour impressionner les autres",
+            "c": "Pour rendre le code compréhensible et faciliter la maintenance",
+            "d": "Parce que c'est obligatoire",
+            "reponse": "c"
+        }
+    },
+  
+    "2": {
+        "1": {
+            "question": "Qu'est-ce qu'un algorithme ?",
+            "a": "Un fichier de texte",
+            "b": "Un type de logiciel",
+            "c": "Une recette de cuisine",
+            "d": "Une suite d'instructions",
+            "reponse": "d"
+        },
+        "2": {
+            "question": "Pourquoi certains programmes sont-ils plus lents que d'autres ?",
+            "a": "Ils sont plus vieux",
+            "b": "Ils contiennent plus d'images",
+            "c": "Ils sont écrits dans un langage de programmation différent",
+            "d": "Manque d'optimisation et efficacité du code",
+            "reponse": "d"
+        },
+        "3": {
+            "question": "Que signifie 'optimiser' un code ?",
+            "a": "Le rendre plus coloré",
+            "b": "Le rendre plus long",
+            "c": "Le simplifier pour qu'il prenne moins de place",
+            "d": "Le rendre plus efficace en termes de performance",
+            "reponse": "d"
+        },
+        "4": {
+            "question": "Qu'est-ce qu'un raccourci clavier ?",
+            "a": "Une touche sur le clavier",
+            "b": "Une combinaison de touches pour exécuter une tâche rapidement",
+            "c": "Un type de programme",
+            "d": "Un outil de réparation de clavier",
+            "reponse": "b"
+        },
+        "5": {
+            "question": "Quel est le but de compresser des fichiers ?",
+            "a": "Pour les rendre plus difficiles à ouvrir",
+            "b": "Pour changer leur format",
+            "c": "Pour réduire leur taille et économiser de l'espace de stockage",
+            "d": "Pour les protéger avec un mot de passe",
+            "reponse": "c"
+        },
+        "6": {
+            "question": "Qu'est-ce qu'une interface utilisateur ?",
+            "a": "La partie du programme avec laquelle l'utilisateur interagit",
+            "b": "Un manuel d'utilisation",
+            "c": "Un écran d'ordinateur",
+            "d": "Un clavier",
+            "reponse": "a"
+        },
+        "7": {
+            "question": "À quoi sert un 'for' en programmation ?",
+            "a": "Pour créer une erreur",
+            "b": "Pour arrêter un programme",
+            "c": "Pour répéter une série d'instructions un nombre défini de fois",
+            "d": "Pour prendre une pause dans le code",
+            "reponse": "c"
+        },
+        "8": {
+            "question": "Comment peut-on mesurer la performance d'un programme ?",
+            "a": "En comptant le nombre de lignes de code",
+            "b": "En mesurant le temps de réponse et l'utilisation des ressources",
+            "c": "En demandant aux utilisateurs",
+            "d": "En changeant la couleur du fond",
+            "reponse": "b"
+        },
+        "9": {
+            "question": "Qu'est-ce que le cache et à quoi sert-il ?",
+            "a": "Un endroit pour stocker des fichiers temporaires",
+            "b": "Un outil pour nettoyer l'ordinateur",
+            "c": "Une mémoire utilisée pour stocker des données fréquemment utilisées",
+            "d": "Un programme antivirus",
+            "reponse": "c"
+        },
+        "10": {
+            "question": "Qu'est-ce que le multitâche ?",
+            "a": "Utiliser plusieurs claviers en même temps",
+            "b": "Changer d'écran sur un ordinateur",
+            "c": "Exécuter plusieurs tâches en même temps par un système informatique",
+            "d": "Télécharger plusieurs fichiers simultanément",
+            "reponse": "c"
+        }
+  },
+      "3": {
+        "1": {
+            "question": "Quel terme désigne le programme qui s'exécute en premier lors du démarrage d'un ordinateur pour charger le système d'exploitation ?",
+            "a": "Le BIOS",
+            "b": "Le compilateur",
+            "c": "L'éditeur de texte",
+            "d": "Le gestionnaire de fenêtres",
+            "reponse": "a"
+        },
+        "2": {
+            "question": "À quoi sert un mot de passe sur un ordinateur ?",
+            "a": "Organiser les fichiers",
+            "b": "Protéger l'accès à l'ordinateur et aux données",
+            "c": "Améliorer la vitesse de l'ordinateur",
+            "d": "Modifier les paramètres de l'écran",
+            "reponse": "b"
+        },
+        "3": {
+            "question": "Que signifie 'installer un logiciel' ?",
+            "a": "Le copier sur un disque externe",
+            "b": "Le mettre en veille",
+            "c": "Le connecter à Internet",
+            "d": "Mettre en place un programme pour qu'il soit prêt à l'utilisation",
+            "reponse": "d"
+        },
+        "4": {
+            "question": "Qu'est-ce que le système d'exploitation ?",
+            "a": "Le logiciel de base qui gère les ressources de l'ordinateur",
+            "b": "Un programme de gestion de fichiers",
+            "c": "Un outil de traitement de texte",
+            "d": "Un jeu vidéo",
+            "reponse": "a"
+        },
+        "5": {
+            "question": "Quelle est la fonction d'un routeur dans un réseau informatique ?",
+            "a": "Stocker des données",
+            "b": "Transférer les données entre différents réseaux",
+            "c": "Nettoyer les virus",
+            "d": "Améliorer la qualité des images",
+            "reponse": "b"
+        },
+        "6": {
+            "question": "Qu'est-ce qu'un antivirus ?",
+            "a": "Un logiciel de nettoyage du disque dur",
+            "b": "Un programme qui protège contre les logiciels malveillants",
+            "c": "Un outil de gestion de base de données",
+            "d": "Une application de messagerie",
+            "reponse": "b"
+        },
+        "7": {
+            "question": "Qu'est-ce que le Wi-Fi ?",
+            "a": "Un périphérique d'ordinateur",
+            "b": "Une technologie de connexion sans fil",
+            "c": "Un type de logiciel",
+            "d": "Un câble de réseau",
+            "reponse": "b"
+        },
+        "8": {
+            "question": "Quelle est la différence entre un disque dur et une mémoire vive ?",
+            "a": "Le disque dur est plus rapide",
+            "b": "La mémoire vive est pour le stockage permanent",
+            "c": "Le disque dur stocke les données de façon permanente, la mémoire vive temporairement",
+            "d": "La mémoire vive est plus grande en taille",
+            "reponse": "c"
+        },
+        "9": {
+            "question": "À quoi sert un câble Ethernet ?",
+            "a": "A connecter un ordinateur à un réseau filaire",
+            "b": "A connecter des périphériques audio",
+            "c": "A cheese Cropta sur Destiny 1",
+            "d": "A transférer des vidéos",
+            "reponse": "a"
+        },
+        "10": {
+            "question": "Qu'est-ce que la sauvegarde cloud ?",
+            "a": "Un type de logiciel antivirus",
+            "b": "Un service de streaming de musique",
+            "c": "Un processus de stockage des données sur des serveurs distants",
+            "d": "Un nouveau modèle d'ordinateur",
+            "reponse": "c"
+            }
+        },
+    "4": {
+        "1": {
+            "question": "Qu'est-ce qu'une base de données ?",
+            "a": "Un programme antivirus",
+            "b": "Un ensemble structuré de données stockées électroniquement",
+            "c": "Un type de système d'exploitation",
+            "d": "Un modèle de processeur",
+            "reponse": "b"
+        },
+        "2": {
+            "question": "Qu'est-ce qu'une requête dans le contexte des bases de données ?",
+            "a": "Une demande d'amélioration du système",
+            "b": "Un e-mail envoyé à l'administrateur",
+            "c": "Une instruction pour extraire des données",
+            "d": "Une méthode pour éteindre la base de données",
+            "reponse": "c"
+        },
+        "3": {
+            "question": "Lequel est un langage de gestion de bases de données ?",
+            "a": "HTML",
+            "b": "SQL",
+            "c": "Python",
+            "d": "Java",
+            "reponse": "b"
+        },
+        "4": {
+            "question": "Quel est le rôle d'un administrateur de base de données ?",
+            "a": "Gérer, sécuriser et maintenir la base de données",
+            "b": "Nettoyer les ordinateurs",
+            "c": "Programmer des jeux vidéo",
+            "d": "Vendre des bases de données",
+            "reponse": "a"
+        },
+        "5": {
+            "question": "Qu'est-ce qu'une relation dans une base de données ?",
+            "a": "Un lien internet",
+            "b": "Un document partagé",
+            "c": "Un raccourci sur le bureau",
+            "d": "Un lien entre plusieurs tables basé sur une clé commune",
+            "reponse": "d"
+        },
+        "6": {
+            "question": "Qu'est-ce qu'une donnée personnelle ?",
+            "a": "Une photo personnelle",
+            "b": "Un mot de passe",
+            "c": "Une préférence musicale",
+            "d": "Une information qui identifie directement ou indirectement une personne",
+            "reponse": "d"
+        },
+        "7": {
+            "question": "Qu'est-ce qu'une table dans une base de données ?",
+            "a": "Un espace de stockage physique",
+            "b": "Une liste de commandes",
+            "c": "Un ensemble de lignes et de colonnes stockant des données liées",
+            "d": "Un outil de dessin graphique",
+            "reponse": "c"
+        },
+        "8": {
+            "question": "Dans le contexte des bases de données, à quoi sert principalement un index ?",
+            "a": "A stocker des sauvegardes de la base de données",
+            "b": "A documenter les structures de données",
+            "c": "A optimiser la vitesse des requêtes de recherche",
+            "d": "A formater les données pour l'affichage",
+            "reponse": "c"
+        },
+        "9": {
+            "question": "Quelle est la différence entre données et informations ?",
+            "a": "Aucune différence",
+            "b": "Les données sont brutes, les informations sont les données traitées et interprétées",
+            "c": "Les informations sont plus colorées",
+            "d": "Les données sont plus petites",
+            "reponse": "b"
+        },
+        "10": {
+            "question": "Quel est l'objectif principal de la sécurité des données dans un environnement informatique ?",
+            "a": "Accélérer le processus de sauvegarde des données",
+            "b": "Garantir la confidentialité, l'intégrité et la disponibilité des données",
+            "c": "Améliorer l'aspect visuel des interfaces utilisateur",
+            "d": "Réduire les coûts de stockage des données",
+            "reponse": "b"
+        }
+        },
+    "5": {
+        "1": {
+            "question": "Quelle est la meilleure définition d'un projet informatique ?",
+            "a": "Un ensemble d'activités coordonnées pour atteindre un objectif spécifique",
+            "b": "Un plan pour améliorer les compétences en informatique",
+            "c": "L'acte d'assembler des composants informatiques",
+            "d": "Un problème complexe nécessitant une solution algorithmique",
+            "reponse": "a"
+        },
+        "2": {
+            "question": "Quel est le principal but de la planification d'un projet ?",
+            "a": "Choisir les membres de l'équipe",
+            "b": "Définir les tâches et le calendrier pour atteindre les objectifs",
+            "c": "Décider du budget du projet",
+            "d": "Sélectionner le matériel informatique",
+            "reponse": "b"
+        },
+        "3": {
+            "question": "Dans un projet, qu'est-ce qu'un objectif ?",
+            "a": "Un plan de carrière",
+            "b": "Une tâche spécifique à réaliser",
+            "c": "Un résultat spécifique que le projet vise à atteindre",
+            "d": "Une réunion d'équipe",
+            "reponse": "c"
+        },
+        "4": {
+            "question": "Quelle est la première étape essentielle pour démarrer un projet ?",
+            "a": "Recruter une équipe",
+            "b": "Définir le budget",
+            "c": "Choisir un logiciel de gestion de projet",
+            "d": "Identifier les besoins et objectifs",
+            "reponse": "d"
+        },
+        "5": {
+            "question": "Pourquoi le travail en équipe est-il important dans un projet ?",
+            "a": "Pour réduire les coûts",
+            "b": "Pour augmenter la diversité des idées et des compétences",
+            "c": "Pour raccourcir les réunions",
+            "d": "Pour simplifier la tâche du chef de projet",
+            "reponse": "b"
+        },
+        "6": {
+            "question": "Qu'est-ce qu'une 'deadline' dans un projet ?",
+            "a": "Une pause dans le projet",
+            "b": "Une augmentation du budget",
+            "c": "Un objectif secondaire",
+            "d": "Une date limite pour achever une tâche ou le projet",
+            "reponse": "d"
+        },
+        "7": {
+            "question": "Dans la gestion de projet, comment définit-on le processus d'assignation de différentes parties du travail aux membres de l'équipe ?",
+            "a": "La coordination des horaires",
+            "b": "L'analyse des performances",
+            "c": "La répartition des tâches",
+            "d": "La délégation de responsabilités",
+            "reponse": "c"
+        },
+        "8": {
+            "question": "Dans un projet, que représente une 'tâche' ?",
+            "a": "Un élément spécifique de travail à réaliser",
+            "b": "Un objectif général du projet",
+            "c": "Une réunion d'équipe",
+            "d": "Un rapport à rédiger",
+            "reponse": "a"
+        },
+        "9": {
+            "question": "Quel est le rôle principal d'un chef de projet ?",
+            "a": "Programmer le logiciel",
+            "b": "Tester le produit",
+            "c": "Gérer le budget",
+            "d": "Diriger et coordonner le projet",
+            "reponse": "d"
+        },
+        "10": {
+            "question": "Pourquoi est-il souvent nécessaire de réajuster les plans d'un projet en cours de réalisation ?",
+            "a": "Pour s'adapter aux changements inattendus et aux nouvelles exigences",
+            "b": "Uniquement pour augmenter les délais de rendu",
+            "c": "Pour simplifier systématiquement le travail",
+            "d": "En réponse à des erreurs de planification initiale",
+            "reponse": "a"
+        }
+        },
+    "6": {
+        "1": {
+            "question": "Qu'est-ce que la collaboration en informatique ?",
+            "a": "Travailler seul sur des projets informatiques",
+            "b": "Utiliser un logiciel spécifique",
+            "c": "Travailler ensemble sur des projets informatiques",
+            "d": "Suivre des cours en ligne",
+            "reponse": "c"
+        },
+        "2": {
+            "question": "Pourquoi est-ce important de bien communiquer dans une équipe ?",
+            "a": "Pour augmenter le temps de travail",
+            "b": "Pour assurer une compréhension et coordination efficaces",
+            "c": "Pour avoir plus de pauses",
+            "d": "Pour réduire le budget du projet",
+            "reponse": "b"
+        },
+        "3": {
+            "question": "Quelle méthode est efficace pour résoudre les problèmes techniques en équipe ?",
+            "a": "Ignorer le problème",
+            "b": "Travailler individuellement",
+            "c": "Une discussion collective et rechercher des solutions",
+            "d": "Changer d'équipe",
+            "reponse": "c"
+        },
+        "4": {
+            "question": "Qu'est-ce qu'une réunion d'équipe ?",
+            "a": "Une pause café",
+            "b": "Une séance de formation",
+            "c": "Un moment pour socialiser",
+            "d": "Un rassemblement pour discuter et planifier le travail",
+            "reponse": "d"
+        },
+        "5": {
+            "question": "Comment peut-on s'assurer que tout le monde dans l'équipe est d'accord ?",
+            "a": "En se débrouillant chacun de son côté",
+            "b": "Par consensus après discussion",
+            "c": "En suivant uniquement l'avis du chef",
+            "d": "En ignorant les désaccords",
+            "reponse": "b"
+        },
+        "6": {
+            "question": "Quelle compétence est importante pour travailler avec les autres ?",
+            "a": "Savoir diriger",
+            "b": "Utilisation des réseaux sociaux",
+            "c": "Savoir communiquer",
+            "d": "Programmer rapidement",
+            "reponse": "c"
+        },
+        "7": {
+            "question": "Qu'est-ce qu'un rôle dans une équipe ?",
+            "a": "Un titre sans responsabilités spécifiques",
+            "b": "Une fonction ou responsabilité attribuée à un membre",
+            "c": "Un projet personnel",
+            "d": "Un logiciel utilisé par l'équipe",
+            "reponse": "b"
+        },
+        "8": {
+            "question": "Comment résout-on un désaccord dans une équipe ?",
+            "a": "Par la discussion et la recherche de compromis",
+            "b": "En suivant l'avis du membre le plus âgé",
+            "c": "Par un vote majoritaire",
+            "d": "En évitant le sujet",
+            "reponse": "a"
+        },
+        "9": {
+            "question": "Qu'est-ce qu'un 'brainstorming' ?",
+            "a": "Un processus créatif de génération d'idées pour résoudre des problèmes",
+            "b": "Une bonne beuverie après les cours",
+            "c": "Une méthode de programmation",
+            "d": "Un type de logiciel",
+            "reponse": "a"
+        },
+        "10": {
+            "question": "Quel est le rôle principal d'un leader au sein d'une équipe informatique ?",
+            "a": "Effectuer des tâches de programmation complexes",
+            "b": "Engueler les membres du groupe",
+            "c": "Offrir une assistance technique détaillée",
+            "d": "Guider l'équipe, inspirer et concentrer les efforts sur les objectifs",
+            "reponse": "d"
+        }
+    }
+  }
+  
+  

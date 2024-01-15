@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivi-info - Règles </title>
+    <!-- Feuilles de style -->
+    
+
+
+    <!--------------------------- Bootstrap 5 -------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+
+    <!-- Icone -->
+    <link rel="icon" href="/assets/icons/logo.png" type="image/png">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<nav class="navbar bg-body-secondary fixed-top">
+    <div class="container-fluid">
+      <a type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" class="navbar-brand" href="index.php">      <span class="navbar-toggler-icon"></span></a>
+      <div class="offcanvas offcanvas-start rounded-end-2" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center align-middle flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+            </li>
+
+            <hr>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="regle.html">Règles du jeu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Jeu.html">Jouer</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</head>
+<body>
+    <main>
+          <div class="mt-50 text-center text-white">
+            <h1>Matériel</h1>
+            <hr class="ms-1 text-white" style="width: 100%;">
+            <p>Le jeu de plateau Trivi-info se compose de :</p>
+            <ul>
+              <li>1 plateau de jeu</li>
+              <li>1 Application Web fournissant les règles ainsi que les questions et le dé</li>
+              <li>Les pions pour les joueurs</li>     
+              <li>Les points de compétences pour les joueurs</li>
+            </ul>
+
+            <h1>But du jeu</h1>
+            <hr class="ms-1 text-white" style="width: 100%;">
+            <p>Le but du Trivi Info est d'être le premier joueur à remplir son coffre de compétences avec des triangles représentant les points pour chaque catégorie de questions.</p>
+
+            <h1>Mise en place du jeu</h1>
+            <hr class="ms-1 text-white" style="width: 100%;">
+            <ol>
+                <li>Placez le plateau de jeu au centre de la table.</li>
+                <li>Chaque joueur choisit un pion et le place sur la case de départ au centre.</li>
+                <li>Les joueurs lancent le dé de l’application pour déterminer qui commence (chiffre le plus élevé). Le jeu se déroule dans le sens des aiguilles d'une montre.</li>
+            </ol>
+
+            <h1>Déroulement du jeu</h1>
+            <hr class="ms-1 text-white" style="width: 100%;">
+            <ol>
+                <li>À chaque tour, le joueur lance un dé et se déplace du nombre de cases indiqué.</li>
+                <li>En fonction de la couleur de la case atteinte, un joueur adverse vous pose une question de la couleur correspondante :
+                    <ul>
+                        <li>Jaune: Développement d’applications</li>
+                        <li>Bleu: Optimisation d’applications</li>
+                        <li>Vert: Gestion de bases de données</li>
+                        <li>Rose: Administration système</li>
+                        <li>Rouge: Travailler dans une équipe informatique</li>
+                        <li>Violet: Gestion de projet</li>
+                    </ul>
+                </li>
+                <li>Si la réponse du joueur est correcte, il obtient un point de compétence dans la matière correspondante et peut relancer le dé pour effectuer un autre tour, sinon, il passe son tour (Un joueur ne peut avoir qu’1 seul point de compétence par UE).</li>
+                <li>Le joueur se déplace sur le plateau jusqu'à ce qu'il ait collecté un point de compétence pour chacune des 6 matières, et donc, d’avoir rempli son coffre de compétences.</li>
+            </ol>
+
+            <h1>Fin de partie</h1>
+            <hr class="ms-1 text-white" style="width: 100%;">
+            <strong>Le premier joueur à remplir son coffre de compétences avec un point de compétence de chaque matière et à atteindre le centre du plateau se voit poser une dernière question, si la réponse est correcte, il remporte la partie, sinon, il peut réessayer au tour suivant.</strong>
+      </main>
+</body>

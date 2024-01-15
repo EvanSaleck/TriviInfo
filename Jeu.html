@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivi-info - Dé </title>
+    <!-- Feuilles de style -->
+    
+
+
+    <!--------------------------- Bootstrap 5 -------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+    <script src="js/shake.js" type="text/javascript"></script>
+    <!-- Icone -->
+    <link rel="icon" href="/assets/icons/logo.png" type="image/png">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<nav class="navbar bg-body-secondary fixed-top">
+    <div class="container-fluid">
+      <a type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" class="navbar-brand" href="index.php">      <span class="navbar-toggler-icon"></span></a>
+      <div class="offcanvas offcanvas-start rounded-end-2" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center align-middle flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+            </li>
+
+            <hr>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="regle.html">Règles du jeu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Jeu.html">Jouer</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</head>
+
+<body>
+
+    <div class="container2 fs-3" id="de">
+        
+        <div class="dice">
+            <div class="face front"></div>
+            <div class="face back"></div>
+            <div class="face top"></div>
+            <div class="face bottom"></div>
+            <div class="face right"></div>
+            <div class="face left"></div>
+        </div>
+
+        <button class="roll fs-2">
+            Lancer le dé
+        </button>
+    </div>
+
+    
+
+    <select class="d-none form-select w-auto text-center position-absolute top-70 rounded-pill form-select" id="selection">
+        <option selected>Choisir la compétence</option>
+        <option class="rounded-pill" value="1">Jaune : Développement d'applications</option>
+        <option class="rounded-pill" value="2">Bleu : Optimisation d'applications</option>
+        <option class="rounded-pill" value="3">Rose : Administration système</option>
+        <option class="rounded-pill" value="4">Vert: Gestion de base de données</option>
+        <option class="rounded-pill" value="5">Violet : Gestion de projet </option>
+        <option class="rounded-pill" value="6">Rouge : Travailler dans une équipe informatique</option>
+    </select>
+
+    <!-- JS File -->
+    <script src="js/functions.js" type="text/javascript"></script>
+    <script src="js/jeu.js" type="text/javascript"></script>
+
+
+</body>
+
+</html>
